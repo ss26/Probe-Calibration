@@ -1,9 +1,10 @@
 function [check,data] = remove_repeated_cols(data)
 % remove_repeated_cols  Removes the repeated columns in a dataset
 % INPUTS:
-%   "data" - an array of data
+%   "data"  - an array of data
 % OUTPUTS:
-%   "data" - an array of data after repeating columns are removed
+%   "check" - returns 1 if columns were removed, 0 if no columns were removed
+%   "data"  - an array of data after repeating columns are removed
 
 % Get size of data
 [m,n] = size(data);
