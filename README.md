@@ -8,5 +8,4 @@ This project was done in association with the **Medical Image Guidance (MIG)** t
 coordinate reference frame (CRF) is used to represent points in space with respect to it; in our case, these points are the markers and the tool tip. In image-guided surgeries, the patient’s skull usually has screws mounted on it that act as CRFs. The last task is to convert the locations of the markers and the tool tip represented in one CRF to another – this being, predominantly, the initial CRF that is present before the surgery procedure commences.
 
 ## Code
-The code is simple to understand once the concept of Rotations and Translations has been understood. This is explained by _Ch8 - Image Registration_ by **J. Michael Fitzpatrick** et al. Only parts of the code have been uploaded to this repository with the permission of my PI. 
-
+The code is simple to understand once the concept of Rotations and Translations has been understood. This is explained by _Ch8 - Image Registration_ by **J. Michael Fitzpatrick** et al. Only some code files have been uploaded to this repository with the permission of my PI. Two code files (_registration.m_ and _probecalibration.m_) that are the backbone of the processing, have not been uploaded. 
